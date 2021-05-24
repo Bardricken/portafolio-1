@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  weatherUrl:
+    'https://api.weatherbit.io/v2.0/current?key=11b79fcf8fc24b12b44b4b2950052890&lang=es',
 };
 
 /*
