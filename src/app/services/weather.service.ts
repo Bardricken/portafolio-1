@@ -32,7 +32,7 @@ export class WeatherService {
           });
         },
         (error) => {
-          reject({ error: 'El clima no esta disponible' });
+          reject({ error: 'Clima no disponible' });
         },
         this.options
       );
